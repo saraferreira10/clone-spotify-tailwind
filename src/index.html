@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Spotify</title>
+</head>
+
+<body>
+    <nav class="bg-black w-full h-20 fixed flex">
+        <div class="w-1/3 h-full flex items-center px-7">
+            <img src="https://storage.googleapis.com/pr-newsroom-wp/1/2018/11/Spotify_Logo_CMYK_White.png"
+                alt="Logo so Spotify" width="120px" height="100px">
+        </div>
+        <div class="w-2/3 h-full text-white flex flex-row items-center justify-end px-7 md:hidden">
+            <i class="fas fa-bars"></i>
+        </div>
+        <div class="w-2/3 h-full text-white flex-row justify-end items-center hidden md:flex">
+            <ul class="h-full flex flex-row justify-end gap-7 px-7 items-center">
+                <li>
+                    <a href="#" class="hover:text-green-500 duration-200">Premium</a>
+                </li>
+                <li>
+                    <a href="#" class="hover:text-green-500 duration-200">Ajuda</a>
+                </li>
+                <li>
+                    <a href="#" class="hover:text-green-500 duration-200">Baixar</a>
+                </li>
+                <li>
+                    <span class="border-r-2"></span>
+                </li>
+                <li>
+                    <a href="#" class="hover:text-green-500 duration-200">Inscrever-se</a>
+                </li>
+                <li>
+                    <a href="#" class="hover:text-green-500 duration-200">Log In</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="flex flex-col justify-center text-center py-40 px-4 bg-purple-600 text-green-500 gap-8">
+        <h1 class="text-5xl font-bold">Escutar muda tudo</h1>
+        <p class="text-xl font-medium">Milhões de músicas e podcasts para explorar. E nem precisa de cartão de crédito.
+        </p>
+        <a href="#"
+            class="bg-green-500 text-purple-600 rounded-full hover:bg-white px-10 py-3 uppercase font-bold tracking-widest max-w-xl mx-auto duration-500">Obtenha
+            o Spotify Free</a>
+    </main>
+
+    <footer>
+        <div class="bg-black grid grid-cols-1 text-white p-10 gap-5 md:grid-cols-5 md:gap-8 bottom-0">
+            <div class="col-span-1">
+                <a href="#">
+                    <img src="https://storage.googleapis.com/pr-newsroom-wp/1/2018/11/Spotify_Logo_CMYK_White.png"
+                        alt="Spotify" height="100px" width="100px">
+                </a>
+            </div>
+
+            <div class="col-span-1">
+                <h3 class="uppercase font-bold text-gray-400">Empresa</h3>
+                <ul>
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#">Empregos</a></li>
+                    <li><a href="#">For the record</a></li>
+                </ul>
+            </div>
+
+            <div class="col-span-1">
+                <h3 class="uppercase font-bold text-gray-400">Comunidade</h3>
+                <ul>
+                    <li><a href="#">Para Artistas</a></li>
+                    <li><a href="#">Desenvolvedores</a></li>
+                    <li><a href="#">Publicidade</a></li>
+                    <li><a href="#">Investidores</a></li>
+                    <li><a href="#">Fornecedores</a></li>
+                </ul>
+            </div>
+
+            <div class="col-span-1">
+                <h3 class="uppercase font-bold text-gray-400">Links úteis</h3>
+                <ul>
+                    <li><a href="#">Ajuda</a></li>
+                    <li><a href="#">Player da web</a></li>
+                    <li><a href="#">Aplicativo móvel grátis</a></li>
+                </ul>
+            </div>
+
+            <div class="col-span-1 text-center">
+                <ul class="flex gap-5 flex-wrap md:justify-end">
+                    <li><a href="#" class="fab fa-instagram text-2xl rounded-full bg-slate-700 p-2 hover:bg-slate-400 duration-200"></a></li>
+                    <li><a href="#" class="fab fa-twitter text-2xl rounded-full bg-slate-700 p-2 hover:bg-slate-400 duration-200"></a></li>
+                    <li><a href="#" class="fab fa-facebook text-2xl rounded-full bg-slate-700 p-2 hover:bg-slate-400 duration-200"></a></li>
+                </ul>
+            </div>
+
+            <div class="md:col-span-3">
+                <ul class="flex flex-col md:flex-row gap-2 text-gray-500 ">
+                    <li><a href="#">Legal</a></li>
+                    <li><a href="#">Centro de Privacidade</a></li>
+                    <li><a href="#">Política de Privacidade</a></li>
+                    <li><a href="#">Cookies</a></li>
+                    <li><a href="#">Sobre Anúncios</a></li>
+                </ul>
+            </div>
+
+            <div class="text-center md:col-span-2 md:flex md:justify-end text-gray-500">
+                <p>&copy; 2020 Spotify AB</p>
+            </div>
+
+        </div>
+    </footer>
+</body>
+
+</html>
